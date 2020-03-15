@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/screetBloom/node-deep/issues"
   },
-  "homepage": "https://github.com/screetBloom/node-deep#readme"
+  "homepage": "https://github.com/screetBloom/node-deep#readme",
+  "dependencies": {
+    "latest-version": "^5.1.0"
+  }
 }
