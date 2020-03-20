@@ -8,6 +8,6 @@ Deep learning node
 - `检查当前源`: [registry-url](https://www.npmjs.com/package/registry-url)
 - `判断当前是否是有网络状态`: [is-online](https://www.npmjs.com/package/is-online)
 - `执行shell脚本`: [execa](https://www.npmjs.com/package/execa)
-
+- `Node问答交互式工具`: [inquirer](https://github.com/sboudrias/Inquirer.js)
 
 
