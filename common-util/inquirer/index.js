@@ -15,6 +15,11 @@ inquirer.prompt([
     default: true
   }
 ]).then((answers) => {
-  console.log('结果为: >')
-  console.log(answers)
+  console.log('结果为:')
+  if (answers.handSome) {
+    console.log('here is handSome ')
+  }
+  if (answers.handSome && answers.isOk) {
+    console.log(answers)
+  }
 })
