@@ -15,7 +15,6 @@ class romeGeneratorAPI {
 
 Object.assign(romeGeneratorAPI.prototype, common)
 
-console.log(romeGeneratorAPI.hasPlugin)
 const instance = new romeGeneratorAPI()
 console.log(instance.hasPlugin())
 console.log(instance.say(22))
