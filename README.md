@@ -10,5 +10,6 @@ Deep learning node
 - `执行shell脚本`: [execa](https://www.npmjs.com/package/execa)
 - `Node问答交互式工具`: [inquirer](https://github.com/sboudrias/Inquirer.js)
 - `Node 断言入门级工具: assert`: [assert](https://juejin.im/post/5c8c7312e51d456af6294a8e)
+- `Node命令行环境的 loading效果， 和显示各种状态的图标等`: [ora](https://github.com/sindresorhus/ora)
 
 
