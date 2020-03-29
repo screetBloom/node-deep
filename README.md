@@ -11,5 +11,6 @@ Deep learning node
 - `Node问答交互式工具`: [inquirer](https://github.com/sboudrias/Inquirer.js)
 - `Node 断言入门级工具: assert`: [assert](https://juejin.im/post/5c8c7312e51d456af6294a8e)
 - `Node命令行环境的 loading效果， 和显示各种状态的图标等`: [ora](https://github.com/sindresorhus/ora)
+- `下载git代码到本地目录`: [download-git-repo](https://www.npmjs.com/package/download-git-repo)
 
 
