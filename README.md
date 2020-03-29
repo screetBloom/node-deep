@@ -14,3 +14,7 @@ Deep learning node
 - `下载git代码到本地目录`: [download-git-repo](https://www.npmjs.com/package/download-git-repo)
 -  `链式配置webpack`: [webpack-chain](https://github.com/neutrinojs/webpack-chain)
 
+</br>
+
+## 深入理解
+### blog: Node模块加载
