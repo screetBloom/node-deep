@@ -13,6 +13,7 @@ Deep learning node
 - `Node命令行环境的 loading效果， 和显示各种状态的图标等`: [ora](https://github.com/sindresorhus/ora)
 - `下载git代码到本地目录`: [download-git-repo](https://www.npmjs.com/package/download-git-repo)
 -  `链式配置webpack`: [webpack-chain](https://github.com/neutrinojs/webpack-chain)
+- `Node eventEmit`: [EventEmitter](https://juejin.im/post/5b0189fe51882567161ad8ef)
 
 </br>
 
