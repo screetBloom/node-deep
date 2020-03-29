@@ -1,6 +1,7 @@
 const download = require('download-git-repo')
 const exec = require('child_process').execSync
 const fs = require('fs-extra')
+const repoUrl = require('./test.js')
 const spendTime = {
   start: 0,
   end: 0,
@@ -29,7 +30,7 @@ async function downloadAsync(repository, tmpDir) {
 async function main(params) {
   spendTime.start = Date.now()
   const temDir = 'test'
-  const gitAddress = 'direct:ssh://git@git.sankuai.com/nibfe/rome-cli.git'
+  const gitAddress = repoUrl
   await downloadAsync(gitAddress, temDir)
   const targetPath = './test/packages/core'
   exec(`cd ${targetPath} && mnpm install`)
