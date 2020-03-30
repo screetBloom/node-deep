@@ -15,6 +15,7 @@ Deep learning node
 -  `链式配置webpack`: [webpack-chain](https://github.com/neutrinojs/webpack-chain)
 - `【内置】Node eventEmit`: [EventEmitter](https://juejin.im/post/5b0189fe51882567161ad8ef)
 - `【内置】Node 临时目录`: [os.tmpdir()](http://nodejs.cn/api/os/os_tmpdir.html)
+- `Node的shell执行工具: execa`: [execa](https://github.com/sindresorhus/execa#readme)
 
 </br>
 
