@@ -17,6 +17,7 @@ Deep learning node
 - `【内置】Node 临时目录`: [os.tmpdir()](http://nodejs.cn/api/os/os_tmpdir.html)
 - `Node的shell执行工具: execa`: [execa](https://github.com/sindresorhus/execa#readme)
 - `文件匹配工具: 遍历/模糊/过滤等: globby`: [globby](https://github.com/sindresorhus/globby)
+- `判断是否是二进制文件: isbinaryfile`: [isbinaryfile]()
 
 </br>
 
