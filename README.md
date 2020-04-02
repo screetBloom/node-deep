@@ -18,6 +18,7 @@ Deep learning node
 - `Node的shell执行工具: execa`: [execa](https://github.com/sindresorhus/execa#readme)
 - `文件匹配工具: 遍历/模糊/过滤等: globby`: [globby](https://github.com/sindresorhus/globby)
 - `判断是否是二进制文件: isbinaryfile`: [isbinaryfile](https://github.com/gjtorikian/isBinaryFile#readme)
+- `下载远程仓库: download-git-repo`: [download-git-repo](https://www.npmjs.com/package/download-git-repo)
 
 </br>
 
