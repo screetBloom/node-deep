@@ -11,14 +11,13 @@ Deep learning node
 - `Node问答交互式工具`: [inquirer](https://github.com/sboudrias/Inquirer.js)
 - `Node 断言入门级工具: assert`: [assert](https://juejin.im/post/5c8c7312e51d456af6294a8e)
 - `Node命令行环境的 loading效果， 和显示各种状态的图标等`: [ora](https://github.com/sindresorhus/ora)
-- `下载git代码到本地目录`: [download-git-repo](https://www.npmjs.com/package/download-git-repo)
 -  `链式配置webpack`: [webpack-chain](https://github.com/neutrinojs/webpack-chain)
 - `【内置】Node eventEmit`: [EventEmitter](https://juejin.im/post/5b0189fe51882567161ad8ef)
 - `【内置】Node 临时目录`: [os.tmpdir()](http://nodejs.cn/api/os/os_tmpdir.html)
 - `Node的shell执行工具: execa`: [execa](https://github.com/sindresorhus/execa#readme)
 - `文件匹配工具: 遍历/模糊/过滤等: globby`: [globby](https://github.com/sindresorhus/globby)
 - `判断是否是二进制文件: isbinaryfile`: [isbinaryfile](https://github.com/gjtorikian/isBinaryFile#readme)
-- `下载远程仓库: download-git-repo`: [download-git-repo](https://www.npmjs.com/package/download-git-repo)
+- `下载远程仓库到本地: download-git-repo`: [download-git-repo](https://www.npmjs.com/package/download-git-repo)
 
 </br>
 
