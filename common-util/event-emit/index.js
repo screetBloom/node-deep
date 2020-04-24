@@ -14,3 +14,5 @@ myEmitter.on('event', data => {
 myEmitter.emit('event', {
   num: 1
 })
+
+
