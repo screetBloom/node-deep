@@ -1,0 +1,15 @@
+{
+  "name": "@nibfe/rome-plugin-2",
+  "version": "0.1.0",
+  "description": "我是rome的第二个插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "scaffold-generator": "^3.0.4"
+  }
+}

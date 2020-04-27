@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "echo missing test",
+    "build": "node ./talos/bin/build.js",
+    "commit": "git cz",
+    "newbranch": "npx git newbranch",
+    "depTest": "node ./tests/version.js",
+    "dirTest": "node ./tests/dir.js",
+    "commandTest": "node ./tests/command.js"
+  },
+  "dependencies": {
+    "@vue/cli-shared-utils": "^4.2.2",
+    "@zeit/ncc": "^0.21.1",
+    "assert": "^2.0.0",
+    "commander": "^4.1.1"
+  },
+  "devDependencies": {
+    "@hfe/common-cli-plugin-flow-standards": "latest",
+    "@nibfe/eslint-config": "^0.1.0",
+    "@nibfe/prettier-config": "^1.0.0",
+    "@nibfe/stylelint-config": "^0.1.0",
+    "vue": "^2.6.11",
+    "yorkie": "2.0.0"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": false,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-configrc.js"
+    }
+  },
+  "bin": {
+    "rome": "./bin/index.js"
+  }
+}

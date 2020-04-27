@@ -1,0 +1,69 @@
+{
+  "name": "@nibfe/component-rome-test-chen-hhhh",
+  "version": "0.1.1",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "eslint . && stylelint 'src/**'",
+    "dev": "npm run serve",
+    "firstCommand": "rome-cli-service firstCommand",
+    "addComponent": "rome-cli-service addComponent",
+    "invoke": "rome-cli-service invoke",
+    "romeServe": "rome-cli-service serve"
+  },
+  "dependencies": {
+    "@nibfe/rome-plugin-2": "^0.1.0",
+    "@nibfe/rome-preset-1": "^1.0.0",
+    "@rome/core": "0.1.3"
+  },
+  "devDependencies": {
+    "@nibfe/eslint-config": "^0.1.0",
+    "@nibfe/stylelint-config": "^0.1.0",
+    "@nibfe/vue-cli-plugin-rome-component": "latest",
+    "@ss/mtd-vue": "^0.1.44",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "@vuese/parser": "^2.4.3",
+    "axios": "^0.19.0",
+    "babel-eslint": "^10.0.1",
+    "chokidar": "^3.3.1",
+    "ejs": "^3.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "scaffold-generator": "^3.0.4",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.6.0",
+    "vue": "2.6.11",
+    "vue-router": "3.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "3.1.0"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": false,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "hb": {
+    "componentId": 906,
+    "token": "ZFPPMc7_Tath9RYJ3YNwXJQ5LslqYkdGPUNPZrArS9A"
+  }
+}
