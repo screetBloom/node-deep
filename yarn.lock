@@ -667,6 +667,11 @@ deep-extend@^0.6.0:
   version "0.6.0"
   resolved "http://r.npm.sankuai.com/deep-extend/download/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
 
+deepmerge@^1.5.2:
+  version "1.5.2"
+  resolved "http://r.npm.sankuai.com/deepmerge/download/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
+  integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
+
 defaults@^1.0.3:
   version "1.0.3"
   resolved "http://r.npm.sankuai.com/defaults/download/defaults-1.0.3.tgz#c656051e9817d9ff08ed881477f3fe4019f3ef7d"
@@ -1486,6 +1491,11 @@ isurl@^1.0.0-alpha5:
   dependencies:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
+
+javascript-stringify@^2.0.1:
+  version "2.0.1"
+  resolved "http://r.npm.sankuai.com/javascript-stringify/download/javascript-stringify-2.0.1.tgz#6ef358035310e35d667c675ed63d3eb7c1aa19e5"
+  integrity sha1-bvNYA1MQ411mfGde1j0+t8GqGeU=
 
 js-tokens@^3.0.0:
   version "3.0.2"
@@ -2637,6 +2647,14 @@ wcwidth@^1.0.1:
   resolved "http://r.npm.sankuai.com/wcwidth/download/wcwidth-1.0.1.tgz#f0b0dcf915bc5ff1528afadb2c0e17b532da2fe8"
   dependencies:
     defaults "^1.0.3"
+
+webpack-chain@^6.4.0:
+  version "6.4.0"
+  resolved "http://r.npm.sankuai.com/webpack-chain/download/webpack-chain-6.4.0.tgz#22f0b27b6a9bc9ee3cba4f9e6513cf66394034e2"
+  integrity sha1-IvCye2qbye48uk+eZRPPZjlANOI=
+  dependencies:
+    deepmerge "^1.5.2"
+    javascript-stringify "^2.0.1"
 
 which-module@^2.0.0:
   version "2.0.0"
