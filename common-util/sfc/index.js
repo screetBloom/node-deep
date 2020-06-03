@@ -14,7 +14,7 @@ function main() {
   if (routeBlock && routeBlock.content) {
     try {
       // res = JSON.parse(routeBlock.content)
-      const bodyStr = routeBlock.content.replace('\n', '')
+      const bodyStr = routeBlock.content.replace(/[\r\n\ ]/g, '')
       const func = new Function(`return ${bodyStr}`);
       res = func()
     } catch (e) {
