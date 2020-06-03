@@ -1,6 +1,6 @@
 'use strict'
 
-const pluginName = 'AutoInjectPlugin'
+const pluginName = 'MyPlugin'
 
 class AutoInjectPlugin {
   constructor(options) {
@@ -8,12 +8,15 @@ class AutoInjectPlugin {
   }
 
   generate() {
-    console.log('generate ~')
+    console.log('\n')
+    console.log('hello little lili ~')
+    console.log('\n')
   }
 
   apply(compiler) {
     compiler.hooks.thisCompilation.tap(pluginName, (compilation) => {
       try {
+        console.log(compilation)
         this.generate()
       } catch (error) {
         compilation.errors.push(error)
