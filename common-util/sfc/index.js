@@ -13,7 +13,10 @@ function main() {
   let res = {}
   if (routeBlock && routeBlock.content) {
     try {
-      res = JSON.parse(JSON.stringify(routeBlock.content))
+      // res = JSON.parse(routeBlock.content)
+      const bodyStr = routeBlock.content.replace('\n', '')
+      const func = new Function(`return ${bodyStr}`);
+      res = func()
     } catch (e) {
       console.log(e)
     }
